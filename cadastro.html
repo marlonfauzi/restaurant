@@ -1,0 +1,70 @@
+﻿<?php
+  //Inicia a sessão
+  session_start();
+  //agora verifico se ele possui permissão para acessar a página.
+?>
+  
+  <!-- Página HTML -->
+  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Menu de Opções</title>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css' />
+<link rel= 'stylesheet' type='text/css' href="style2.css" />
+</head>
+
+<body bgcolor = #F0FFFF>
+<center> <img src = "logomarca.png">
+</center>
+<center>
+  <div id= "cadastrar" class="bradius">
+  <form action="cadastrando.html" method="post">
+  <input name="enviar" type="submit" class="sb bradius" value="Cadastrar" id="enviar" />
+  <!-- Botão para ir consultar -->
+  </form>
+  </div>
+</center>
+<center>
+  <div id= "cadastrar" class="bradius">
+  <form action="consulta.html" method="post">
+  <input name="consultar" type="submit" class="sb bradius" id="consultar" value="Consultar" />
+</form> 
+<center>
+<!-- Botão para atualizar -->
+<form action="atualizar.html" method="post">
+  <p>
+    <input type="submit" name="atualizar" class="sb bradius" value="Atualizar Dados" id="atualizar" />
+</form>
+</center>
+<center>
+<!-- Botão para deletar -->
+<form action="deletar.html" method="post">
+  <p>
+    <input type="submit" name="excluir" class="sb bradius" value="Excluir Dados" id="excluir" />
+</form>
+</center>
+<!--acomodar-->
+</div></center>
+<!-- Deslogar do sistema -->
+<a href="index.html">
+<p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ <p align="right">&nbsp;</p>
+ 
+<p align="center">Deslogar </p>
+ </a> 
+</BODY>
+</HTML>
+
+

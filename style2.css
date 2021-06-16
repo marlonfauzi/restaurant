@@ -1,0 +1,70 @@
+* {
+	margin:0; /* Uma propriedade estenográfica para especificar as propriedades das margens em uma declaração */
+	padding:0; /* Uma propriedade estenográfica para especificar todas as propriedades de enchimento em uma declaração */
+	outline:none;
+	list-style:none; /* Sem estilo de lista */
+}
+
+body{
+	font:300 16px Oswald;
+	
+}
+#cadastrar {
+	width: 300px; /* Especifica a largura de um elemento */
+	margin: 0 auto;
+	position: relative; /* Posiciona um elemento numa posição estática, relativa, absoluta ou fixa */
+	top: 250px;
+	border: 1px solid #F1F1F1; /* Complementos da borda */
+	padding: 15px;
+	
+}
+	
+#cadastrar label {
+	display:block; /* faz com que o elemento HTML seja renderizado como bloco */
+	padding-top:5px;
+}
+
+.acomodar {
+	margin: 0 auto;
+	width: 250px;
+	
+}
+.sb {
+	display:block;
+	border: none;
+	width: 250px;
+	height:40px; /* Especifica a altura de um elemento */
+	margin-top:10px;
+	cursor:pointer; /* mouse ficando no formato de mãozinha ao clicar no link */
+	font: 400 18px Oswald;
+	color:#999;
+}
+
+.sb: hover { /* Adiciona um estilo especial a um vínculo quando o mouse está sobre ele */
+	background:#09F;
+	color:#FFF;
+	
+}
+
+/* Classes de herança */
+
+.bradius { /* estilo especial de formatação */
+	border-radius:6px; /* para o estilo css funcionar em um dos navegadores */
+	-webkit-border-radius:6px; /* para o estilo css funcionar em um dos navegadores */
+	-moz-border-radius:6px; /* para o estilo css funcionar em um dos navegadores */
+}
+
+.fleft{
+	float:left; /* Especifica onde uma imagem ou um texto irão aparecer em outro elemento */
+}
+
+.fright{
+	float:right; /* Especifica onde uma imagem ou um texto irão aparecer em outro elemento */
+}
+
+/* Multiplos Estilos */
+.sb,.sb:hover{
+	transition: all 0.5s linear;  /* para o estilo css funcionar em um dos navegadores */
+	-webkit-transition: all 0.5s linear;  /* para o estilo css funcionar em um dos navegadores */
+	-moz-transition: all 0.5s linear;  /* para o estilo css funcionar em um dos navegadores */
+}
